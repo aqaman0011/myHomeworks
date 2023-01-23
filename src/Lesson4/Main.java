@@ -7,8 +7,10 @@ public class Main {
         String str = "Sentences in upper and lower case with the output of the first and last letter";
         String upperCase = str.toUpperCase();
         String lowerCase = str.toLowerCase();
+        int length = str.length();
+        int lastIndex = length - 1;
         char firstLetter = str.charAt(0);
-        char lastLetter = str.charAt(77);
+        char lastLetter = str.charAt(lastIndex);
 
         System.out.println(upperCase);
         System.out.println(lowerCase);
