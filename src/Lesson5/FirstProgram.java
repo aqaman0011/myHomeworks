@@ -16,11 +16,14 @@ public class FirstProgram {
         System.out.println("Enter the second number: ");
         int second = scr.nextInt();
 
-        boolean firstOption = first > second;
+        boolean findLargeNumber = first > second;
+        boolean findEqual = first == second;
 
 
-        if (firstOption) {
+        if (findLargeNumber) {
             System.out.println("This number " + first + " is the largest");
+        } else if (findEqual) {
+            System.out.println("These numbers are equal, try again!");
         } else {
             System.out.println("This number " + second + " is the largest");
         }

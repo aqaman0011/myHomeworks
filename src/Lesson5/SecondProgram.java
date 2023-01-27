@@ -16,11 +16,14 @@ public class SecondProgram {
         System.out.println("Enter the second number: ");
         int second = scr.nextInt();
 
-        boolean secondOption = first < second;
+        boolean findSmallNumber = first < second;
+        boolean findEqual = first == second;
 
 
-        if (secondOption) {
+        if (findSmallNumber) {
             System.out.println("This number " + first + " is the smallest");
+        } else if (findEqual) {
+            System.out.println("These numbers are equal, try again!");
         } else {
             System.out.println("This number " + second + " is the smallest");
         }

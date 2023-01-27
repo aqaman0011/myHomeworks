@@ -12,9 +12,9 @@ public class ThirdProgram {
         System.out.println("Enter the number: ");
         int number = scr.nextInt();
 
-        boolean thirdOption = number % 2 == 0;
+        boolean evenNumber = number % 2 == 0;
 
-        if (thirdOption) {
+        if (evenNumber) {
             System.out.println("Entered number is even");
         } else {
             System.out.println("Entered number is not even");
