@@ -4,9 +4,11 @@ public class ArrayProgram {
 
     public static void main(String[] args) {
 
-        //Create our array
-        int[] array = new int[]{4, 6, 8, 23, 17, 98, 45, 32, 77, 100};
-
+        //Create our random array
+        int[] array = new int[10];
+        for(int i = 0; i < array.length; i++){
+            array[i] = (int)(Math.random()*100);
+        }
 
         //Output our array in console
         for (int i = 0; i < array.length; i++) {
